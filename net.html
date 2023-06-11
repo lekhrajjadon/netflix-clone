@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Homepage</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Styles for the header */
+        header {
+            background-color: #680606;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        /* Styles for the main content */
+        main {
+            background-image: url("netflix_background.jpg");
+            background-size: cover;
+            padding: 20px;
+            color: #540303;
+            text-align: center;
+        }
+        
+        /* Styles for the footer */
+        footer {
+            background-color: #000;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        /* Additional styles for links */
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Styles for login and signup button */
+        .login-button, .signup-button {
+            background-color: #fff;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 10px;
+            text-decoration: none;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        
+        /* Styles for Netflix logo */
+        .netflix-logo {
+             
+            position: absolute;
+            top: 5px;
+            left: 20px;
+            width: 130px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="netflix-logo" src="netflixlogo.png" alt="Netflix Logo">
+        <h1>Welcome to Netflix</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Movies</a> |
+            <a href="#">TV Shows</a> |
+            <a href="#">My List</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Popular Movies</h1>
+        <div class="movie-container">
+            <!-- <img src="Netflix.jpg" alt="container"> -->
+            <div class="movie-card">
+                <!-- <img src="image.jpg" alt="Movie 1"> -->
+                <h2>HollyBoods</h2>
+            </div>
+            <div class="movie-card">
+                <img src="photo1.jpg" alt="Movie 2">
+                <h2>BollyBood</h2>
+            </div>
+            <div class="movie-card">
+                <!-- <img src="photo2.jpg" alt="Movie 3">
+                <h3>Movie 3</h3> -->
+            </div>
+            <div class="movie-card">
+                <img src="photo.jpg" alt="Movie 4">
+                <h2>Advantures</h2>
+            </div>
+        
+        
+        <a class="login-button" href="#">Login</a>
+        <a class="signup-button" href="#">Sign Up</a>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Netflix. All rights reserved.</p>
+    </footer>
+</body>
+</html>
